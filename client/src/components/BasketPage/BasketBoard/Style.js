@@ -1,0 +1,51 @@
+const BascetBorderLayoutStyle = {
+  div: {
+    width: '100vw',
+    maxHeight: '172px',
+    height: '100vh',
+    backgroundColor: '#000000',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    overflow: 'hidden',
+  },
+  h2: {
+    color: '#FFFFFF',
+    fontSize: '3.55rem',
+    textAlign: 'center',
+    fonWeight: '700',
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+    cursorPointer: 'none',
+  },
+  h4: {
+    fontSize: '1.75rem',
+    textAlign: 'left',
+    fonWeight: '700',
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+    cursorPointer: 'none',
+    width: '220px',
+    paddingBottom: '10px',
+    borderBottom: '1px solid #000000',
+  },
+  wrapper: {
+    maxWidth: '1180px',
+    margin: 'auto',
+  },
+  button: {
+    color: '#FFFFFF',
+    backgroundColor: '#000000',
+    borderRadius: 'none',
+    maxWidth: '426px',
+    width: '100vw',
+    fontSize: '1.25rem',
+    fontStyle: 'Regular',
+    textAlign: 'center',
+    fonWeight: '700',
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+  },
+}
+
+export default BascetBorderLayoutStyle

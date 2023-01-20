@@ -1,0 +1,19 @@
+.containerCards {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.cardListContainer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.cardList {
+  margin-top: 20px;
+}
+.headline {
+  text-align: center;
+}

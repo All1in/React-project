@@ -1,0 +1,33 @@
+.containerForImg {}
+
+.descriptionContainer {}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.buttonBlock {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 2em;
+  gap: 10px;
+}
+
+.dropDownContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.forWhom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+}
+

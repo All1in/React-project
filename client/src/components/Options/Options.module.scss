@@ -1,0 +1,13 @@
+.sizeChanger {
+  cursor: pointer;
+}
+
+.containerForSize {
+  display: flex;
+  //align-items: center;
+  gap: 20px;
+}
+
+.container {
+  justify-self: flex-start;
+}
